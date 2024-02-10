@@ -1,0 +1,49 @@
+
+.tittle{
+    font-family: 'Mulish', sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.descripcion{
+    text-align: center;
+    font-size: 'Mulish', sans-serif;
+    font-size: 40px;
+    padding: 40px;
+}
+.caracteristicas{
+    text-align: center;
+}
+.columns{
+    background-color: #F9D7E5;
+    border-color: black;
+    padding: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+.grid-item1{
+    grid-area: 1/1/1/3;
+}
+.grid-item2{
+    grid-area: 1/3/1/5;
+    align-self: center;
+    background-color: cadetblue;
+}
+hr{
+    width: 100%;
+    height: 50px;
+    color: black;
+}
+.logo-pag{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block ;
+}
+.texto1{
+    padding-left: 20px;
+}
+
